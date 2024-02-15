@@ -3,7 +3,6 @@
         "react-router-dom": "^6.6.0"
     },
     "scripts": {
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d build"
+        "build": "npm run build"
     }
 }
