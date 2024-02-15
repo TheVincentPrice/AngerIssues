@@ -1,5 +1,5 @@
 import "../App.css";
-import "../../content/icons/anger_production_logo.jpg";
+import logoImg from "../../content/icons/anger_production_logo.jpg";
 import { ContactButton } from "./ContactButton";
 
 const Home = () => {
@@ -13,7 +13,7 @@ const Home = () => {
       <div className="App">
           <a href="/portfolio">
             <img
-              src="../content/icons/anger_production_logo.jpg"
+              src={logoImg}
               style={logoStyle}
             />
           </a>
